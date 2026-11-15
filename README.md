@@ -38,11 +38,12 @@ For another computer, install JDK 17 and configure JAVA_HOME first.
 84 regression checks passed, including patient snapshots, invalid setter atomicity,
 invalid filters, staff identity, slot boundaries, working days, sorting, cancellation
 and storage growth. Compilation with -Xlint:all and Javadoc with -Xdoclint:all pass.
-The actual console demo is recorded in demo-output.txt.
+Double-click the launcher to see the current console demonstration.
 
 With JDK 17 on PATH:
 
 ```text
+mkdir out
 javac -encoding UTF-8 -Xlint:all -d out src/*.java tests/*.java
 java -cp out AssignmentOne
 java -cp out AppointmentSystemTest
